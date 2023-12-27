@@ -1,5 +1,5 @@
 echo ..............................Change directory...
-cd /var/www/app/angular
+cd /var/www/app/angular/portal
 
 echo ..............................Install dependencies Package...
 npm install
