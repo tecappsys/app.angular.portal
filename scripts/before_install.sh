@@ -14,27 +14,19 @@
 # echo ..............................installin curl...
 # sudo apt-get install -y curl
 
-echo ..............................installin Node whit NVM...
-export NVM_DIR=$HOME/.nvm;
-source $NVM_DIR/nvm.sh;
-source ~/.bashrc
-nvm install node -y
-nvm install 16.20.2
-nvm use 16.20.2
+# NODE JS
+# echo ..............................installin Node whit NVM...
+# export NVM_DIR=$HOME/.nvm;
+# source $NVM_DIR/nvm.sh;
+# source ~/.bashrc
+# nvm install node -y
+# nvm install 16.20.2
+# nvm use 16.20.2
+# echo ..............................Version nodejs...
+# node -v
+# echo ..............................Version npm...
+# npm -v  
 
-# echo ..............................install Node...
-# curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-# sudo apt install -y nodejs
-
-# echo ..............................install Npm...
-# sudo apt install -y npm
-
-echo ..............................Version nodejs...
-node -v
-
-echo ..............................Version npm...
-npm -v
-
+# ANGULAR CLI
 # echo ..............................install Angular/Cli...
-# sudo npm i -g @angular/cli
-
+# sudo npm i @angular/cli@16.2.11
