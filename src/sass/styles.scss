@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @use '@angular/material' as mat;
+@use 'sass:math';
 @import "fonts";
+@import "simple-grid";
+@import "theme_colors";
 @include mat.core();
 
 $my-primary: mat.define-palette(mat.$indigo-palette, 500);

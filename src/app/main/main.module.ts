@@ -4,12 +4,16 @@ import { MainRoutingModule } from './main-routing.module';
 import { MainComponent } from './main.component';
 import { SharedModule } from '@shared/shared.module';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { HomeComponent } from '../components/home/home.component';
 
 @NgModule({
   declarations: [
     MainComponent,
     HomeComponent,
+    NavbarComponent,
+    ToolbarComponent
   ],
   imports: [
     MainRoutingModule,
@@ -18,7 +22,7 @@ import { HomeComponent } from './home/home.component';
   ],
   exports:[
     MainComponent
-  ]
+  ],
 })
 
 export class MainModule { }
