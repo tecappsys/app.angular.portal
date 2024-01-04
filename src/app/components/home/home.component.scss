@@ -20,6 +20,8 @@
 .wrapper-overflow {
     overflow: hidden;
     display: -webkit-box;
+    line-height:1.5em;  
+    min-height:4.5em;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
 }
