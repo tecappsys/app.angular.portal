@@ -1,8 +1,8 @@
-import { Component, ElementRef, EventEmitter, Output, ViewChild } from '@angular/core';
+import { Component, ElementRef, EventEmitter, HostBinding, Output, ViewChild } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { LOCAL_STORAGE_KEY } from '@src/app/shared/enums/local-storage-key.enum';
 import { THEME_UI } from '@src/app/shared/enums/theme-ui.enum';
-import { environment } from '@src/environments/environment.dev';
+import { environment } from '@src/environments/environment';
 
 @Component({
   selector: 'app-navbar',
@@ -34,7 +34,7 @@ export class NavbarComponent {
 
   public navigateToHome(){
     setTimeout(() => {
-      window.location.href = environment.app_home
+      window.location.href = environment.app_portal
     }, 100);
   }
 
