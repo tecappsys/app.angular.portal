@@ -1,27 +1,5 @@
-:host ::ng-deep{
-    .mat-toolbar-single-row{
-        min-height: 65px;
-    }
-}
-
-.main-container{
+.sidenav-router{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    padding: 16px;
-}
-
-.navbar-spacer {
-    flex: 1 1 auto;
-}
-
-.navbarLeft{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 8px;
-    gap: 10px;
-    h1{
-        margin: 0;
-    }
+    height: calc(100% - 160px); // WHIT - toolbar
 }
