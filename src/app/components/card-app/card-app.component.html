@@ -1,4 +1,4 @@
-<mat-card class="cardElement shadow-card" (click)="onAppSelected()">
+<!-- <mat-card class="cardElement shadow-card" (click)="onAppSelected()">
     <mat-card-header class="wrapper-title">
         <div mat-card-avatar class="card-header-image" [ngStyle]="{'background-image':'url('+app.imgLogoPath+')'}"></div>
         <mat-card-title class="wrapper-title-overflow">{{app.title}}</mat-card-title>
@@ -11,5 +11,16 @@
         <p class="wrapper-overflow">
             {{app.description}}
         </p>
+    </mat-card-content>
+</mat-card> -->
+
+<mat-card class="card-ui shadow-card" (click)="onAppSelected()">
+    <div class="content-image">
+        <img mat-card-image [src]="app.imgPath" [alt]="app.title">
+    </div>    
+    <mat-card-content class="wrapper">
+        <div mat-card-avatar class="card-ui-thumbnail" [ngStyle]="{'background-image':'url('+app.imgLogoPath+')'}"></div>
+        <h6 class="wrapper-title">{{app.title}}</h6>
+        <mat-card-title class="wrapper-title">{{app.description}}</mat-card-title>
     </mat-card-content>
 </mat-card>

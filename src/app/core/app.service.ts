@@ -11,7 +11,7 @@ export class AppService{
           subtitle:'single page application',
           imgPath:'../../assets/img/angular_spa_app.jpg',
           imgLogoPath:'../../assets/img/angular_spa_app_logo.jpg',
-          description:'A single-page application is a type of web application that loads a single initial page from the server and then dynamically updates its content, through user interactions, without the need to load additional pages from the server.',
+          description:'A single-page application loads a single initial page from the server, then dynamically updates its content through user interactions, eliminating the need to load additional pages from the server.',
           href: environment.appSpa
         },
         {
@@ -19,7 +19,7 @@ export class AppService{
           subtitle:'Application using Apis',
           imgPath:'../../assets/img/angular_spotify_app.jpg',
           imgLogoPath:'../../assets/img/angular_spotify_app_logo.jpg',
-          description:'Application with use of spotify public apis, token management, get requests, get music from artists, use spotify widget to play the song, among other things.',
+          description:'Develop an application with Spotify public APIs, manage tokens, perform GET requests, fetch music from artists, and integrate Spotify widget to play songs, plus other functionalities.',
           href: environment.appSpotify
         }
       ]

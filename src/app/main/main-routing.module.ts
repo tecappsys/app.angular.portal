@@ -12,7 +12,7 @@ const routes: Routes = [{
       pathMatch:'full',      
       component:HomeComponent,
       data:{
-        entity:'Portfolio',
+        entity:'Apps',
         title:'Angular'
       }
     },
