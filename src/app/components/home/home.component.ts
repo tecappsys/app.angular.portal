@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AppService } from '@src/app/core/app.service';
-import { SpinnerService } from '@src/app/core/spinner.service';
+import { SpinnerService } from '@tecappsys/library-angular';
 import { App } from '@src/app/shared/interface/app.interface';
 
 @Component({
